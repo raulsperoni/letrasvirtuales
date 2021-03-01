@@ -1,21 +1,21 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
+import Section1 from "../components/section1"
+import Waves from "../components/waves"
+import Waves2 from "../components/waves2"
+import Section2 from "../components/section2"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <Hero siteTitle="El Templo del Futuro" siteBajada="Lalal las kjhdsdkhsk kjhsd jhkjhkj kjhkj hkj hkjhk jkjhkj khlhljhjhkh."/>
+    <Waves fill="#000000"/>
+    <Section1/>
+    <Waves2 fill="#000000"/>
+    <Section2/>
   </Layout>
 )
 
