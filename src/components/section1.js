@@ -1,13 +1,10 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-import hero from "../css/hero.png"
 import ReactPlayer from "react-player"
 
-const Section1 = ({  }) => (
+const Section1 = ({}) => (
   <section className="bg-black py-8">
     <div className="container max-w-5xl mx-auto m-8">
-      <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      <h1 className="w-full my-2 text-3xl font-bold leading-tight text-center text-gray-800">
         Sobre el Proyecto
       </h1>
       <div className="w-full mb-4">
@@ -24,9 +21,7 @@ const Section1 = ({  }) => (
             <br />
             <br />
 
-            Images from:
 
-            <a className="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
           </p>
         </div>
         <div className="w-full sm:w-1/2 p-6">
@@ -362,19 +357,18 @@ const Section1 = ({  }) => (
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-around">
-      <ReactPlayer
-        url="https://youtu.be/WGUEaDNljmE"
-      />
+      <div className="flex justify-around">
+        <ReactPlayer
+          width="100%"
+          url="https://youtu.be/WGUEaDNljmE"
+        />
       </div>
     </div>
   </section>
 )
 
-Section1.propTypes = {
-}
+Section1.propTypes = {}
 
-Section1.defaultProps = {
-}
+Section1.defaultProps = {}
 
 export default Section1

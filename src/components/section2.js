@@ -1,30 +1,24 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-import hero from "../css/hero.png"
+import SocialButtons from "./social"
 
-const Section2 = ({  }) => (
+const Section2 = ({ social }) => (
   <section className="container mx-auto text-center py-6 mb-12">
     <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-      Call to Action
+      Financiación
     </h1>
     <div className="w-full mb-4">
       <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
     </div>
-    <h3 className="my-4 text-3xl leading-tight">
-      Main Hero Message to sell yourself!
-    </h3>
-    <button
-      className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-      Action!
-    </button>
+    <p className="mx-20 my-4 text-xl leading-tight">
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+      galley of type and scrambled it to make a type specimen book. </p>
+    <SocialButtons youtube={social.youtube} facebook={social.facebook} instagram={social.instagram}
+                   twitter={social.twitter} />
   </section>
 )
 
-Section2.propTypes = {
-}
+Section2.propTypes = {}
 
-Section2.defaultProps = {
-}
+Section2.defaultProps = {}
 
 export default Section2
