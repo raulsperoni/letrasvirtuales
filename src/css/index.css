@@ -2,15 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+
 
 .gradient {
     /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%);*/
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(28, 217, 255, 1) 100%);
+    background-image: url("../images/space-galaxy-background.jpg");
 }
 
 body {
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(28, 217, 255, 1) 100%);
+    background-image: url("../images/space-galaxy-background.jpg");
+
 }
 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `El Templo del Futuro`,
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
+    description: `Un espacio de reflexión y de encuentro entre comunidades para contemplar críticamente al mundo en radical transformación.`,
     social: {
       twitter: `@raul`,
       instagram: `@raul`,
