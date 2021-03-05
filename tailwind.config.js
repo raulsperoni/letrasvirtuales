@@ -4,7 +4,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        'title' : ['IM Fell DW Pica SC', 'serif'],
         'serif': ['EB Garamond', 'serif']
+      },
+      colors: {
+        ocre: '#c1a085',
+        marron: '#3a220a'
       }
     },
   },

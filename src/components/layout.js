@@ -18,14 +18,21 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          subtitle
+          social {
+            twitter
+            instagram
+            youtube
+            facebook
+          }
         }
       }
     }
   `)
 
   return (
-    <div className="leading-normal tracking-normal text-white  font-serif">
-      {/*<Header siteTitle={data.site.siteMetadata?.title || `Title`} />*/}
+    <div className="leading-normal tracking-normal text-black  font-serif">
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} subtitle={data.site.siteMetadata.subtitle} social={data.site.siteMetadata.social} />
       <div>
         <main>{children}</main>
         <Footer siteTitle={data.site.siteMetadata?.title || `Title`}></Footer>

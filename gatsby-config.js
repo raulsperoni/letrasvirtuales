@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `El Templo del Futuro`,
-    description: `Un espacio de reflexión y de encuentro entre comunidades para contemplar críticamente al mundo en radical transformación.`,
+    title: `Letras Virtuales`,
+    subtitle: `Rutas para la escritura auténtica`,
+    description: `Letras Virtuales es una propuesta de talleres de motivación literaria a cargo de Gabriela Onetto. La comuna, su comunidad, está formada por escritores de todo el mundo y gente que, aún sin dedicarse a la literatura, disfruta de escribir y conocerse por esta vía.`,
     social: {
       twitter: `@raul`,
       instagram: `@raul`,
