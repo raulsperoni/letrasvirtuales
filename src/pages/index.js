@@ -32,7 +32,7 @@ const IndexPage = () => {
       <Layout>
           <SEO title="Home" />
           <Hero siteTitle={data.site.siteMetadata.title} siteBajada={data.site.siteMetadata.description} social={data.site.siteMetadata.social}/>
-          <Waves filltop="#c1a085" filldown="#c1a085"/>
+          <Waves filltop="#466a6d" filldown="#293133"/>
           <Section1/>
           <Waves2 filltop="#c1a085" filldown="#c1a085"/>
           <Section2 social={data.site.siteMetadata.social}/>

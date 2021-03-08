@@ -8,6 +8,11 @@ module.exports = {
         'serif': ['EB Garamond', 'serif']
       },
       colors: {
+        negro: '#293133',
+        rojo: '#9b1b30',
+        naranja: '#c46229',
+        amarillo: '#ba9546',
+        verde: '#466a6d',
         ocre: '#c1a085',
         marron: '#3a220a'
       }

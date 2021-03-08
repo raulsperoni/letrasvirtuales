@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, RiPenNibFill } from "rea
 
 
 const Header = ({ siteTitle, subtitle, social }) => (
-  <nav id="header" className="fixed w-full z-30 top-0 bg-ocre text-marron">
+  <nav id="header" className="fixed w-full z-30 top-0 bg-rojo text-amarillo">
     <div className="w-full container mx-auto flex flex-wrap items-center justify-between h-16 md:h-20 my-auto py-2">
       <div className="pl-4 flex">
         <a className="flex items-center toggleColour no-underline hover:no-underline text-2xl lg:text-4xl" href="#">
@@ -15,7 +15,6 @@ const Header = ({ siteTitle, subtitle, social }) => (
           <span className="hidden md:block ml-0 font-normal text-lg lowercase">{subtitle}</span>
           </div>
         </a>
-
       </div>
       <div className="block lg:hidden pr-4">
         <button id="nav-toggle"
@@ -50,7 +49,7 @@ const Header = ({ siteTitle, subtitle, social }) => (
         </ul>*/}
         <button
           id="navAction"
-          className="mx-auto lg:mx-3 bg-white text-marron font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+          className="mx-auto lg:mx-3 bg-amarillo text-negro font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
         >
          La Comuna
         </button>

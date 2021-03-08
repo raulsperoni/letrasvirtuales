@@ -5,7 +5,7 @@ import image2 from "../images/06.png"
 
 
 const Section1 = ({}) => (
-  <section className="bg-ocre py-8">
+  <section className="bg-negro py-8">
     <div className="container max-w-5xl mx-auto m-8">
       <h1 className="w-full my-2 text-3xl font-bold leading-tight text-center text-gray-800">
         Los Talleres
@@ -24,7 +24,7 @@ const Section1 = ({}) => (
           </p>
         </div>
         <div className="w-full sm:w-1/2 p-6">
-          <img className="-ml-12 w-full md:w-4/5" src={image} />
+          <img className="w-full md:w-4/5" src={image} />
         </div>
       </div>
     </div>
